@@ -100,7 +100,7 @@
             class="w-full h-full absolute opacity-75 bg-black"
           ></span>
         </div>
-        <div class="container relative mx-auto">
+        <div class="container relative mx-auto" data-aos="fade-in">
           <div class="items-center flex flex-wrap">
             <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
               <div>
@@ -133,24 +133,21 @@
       <section id="about" class="relative py-20 bg-indigo-500 text-white">
         <div class="container mx-auto px-4">
           <div class="items-center flex flex-wrap">
-            <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+            <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="fade-right">
               <img
                 alt="..."
                 class="max-w-full rounded-lg shadow-lg"
                 src="images/yoga-sunset.jpg"
               />
             </div>
-            <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+            <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="fade-left">
               <div class="md:pr-12">
                 <h3 class="text-3xl text-green-300 font-semibold">
                   Yoga for the Body & Soul
                 </h3>
                 <small class="text-green-200">About our studio</small>
                 <p class="mt-4 text-lg leading-relaxed text-white">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Incidunt quos provident necessitatibus consequuntur,
-                  reprehenderit magni, laborum deleniti nobis maiores, dicta
-                  nostrum. Voluptatum, omnis!.
+                  Yoga is more than just a practice, it's a beautiful journey connecting mind, body and spirit; as all of nature, we are meant to be in balance.
                 </p>
                 <ul class="list-none mt-6">
                   <li class="py-2">
@@ -219,7 +216,7 @@
           <!-- TRAINER CARD WRAPPER -->
           <div class="flex flex-wrap">
             <!-- CARD 1 -->
-            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4">
+            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
               <div class="px-6">
                 <img
                   alt="..."
@@ -254,7 +251,7 @@
               </div>
             </div>
             <!-- CARD 2 -->
-            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4">
+            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
               <div class="px-6">
                 <img
                   alt="..."
@@ -289,7 +286,7 @@
               </div>
             </div>
             <!-- CARD 3 -->
-            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4">
+            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
               <div class="px-6">
                 <img
                   alt="..."
@@ -361,7 +358,7 @@
           <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
             <div class="w-full lg:w-6/12 px-4">
               <div
-                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300"
+                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300" data-aos="fade-up-right"
               >
                 <div class="flex-auto p-5 lg:p-10 bg-green-500 text-white">
                   <h4 class="text-2xl font-semibold">Ready to begin?</h4>
@@ -446,7 +443,7 @@
           <div class="w-full lg:w-6/12 px-4">
             <h4 class="text-3xl font-semibold text-green-500">Follow us on social media</h4>
             <h5 class="text-lg mt-0 mb-2 text-green-500">
-              Find us on any of these platforms, we respond 1-2 business days.
+              Find us on any of these platforms!
             </h5>
             <div class="mt-6">
               <button
@@ -494,4 +491,11 @@
     }
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous"></script>
+  <script>
+    AOS.init({
+      delay: 200,
+      duration: 1200,
+      once: false
+    })
+  </script>
 </html>
